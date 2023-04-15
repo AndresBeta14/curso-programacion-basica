@@ -75,7 +75,17 @@ function ataqueAleatorioEnemigo() {
  } else {
    ataqueEnemigo = 'PLANTA'
  }
+ crearMensaje()
 
+}
+
+function crearMensaje(){
+   let sectionMensajes = document.getElementById ('mensajes')
+
+   let parrafo = document.createElement ('p')
+   parrafo.innerHTML = 'tu mascota ataco con ' + ataqueJugador + ',las mascotas del enemigo ataco con ' + ataqueEnemigo + 'Pendiente'
+
+   sectionMensajes.appendChild (parrafo)
 }
 
 function aleatorio(min, max) {
