@@ -1,15 +1,16 @@
 let ataqueJugador
 let ataqueEnemigo
+
 function inicarJuego() {
-    let botonMascotaJugador = document .getElementById('boton-mascota')
-    botonMascotaJugador.addEventListener('click',seleccionarMascotaJugador)
+   let botonMascotaJugador = document .getElementById('boton-mascota')
+   botonMascotaJugador.addEventListener('click',seleccionarMascotaJugador)
    let botonFuego = document.getElementById('boton-Fuego')
    botonFuego.addEventListener('click', ataqueFuego)
    let botonAgua = document.getElementById('boton-Agua')
    botonAgua.addEventListener('click', ataqueAgua)
    let botonPlanta = document.getElementById('boton-Planta')
    botonPlanta.addEventListener('click',ataquePlanta)
-   }
+}
 
 
 function seleccionarMascotaJugador (){
@@ -29,7 +30,8 @@ function seleccionarMascotaJugador (){
 
      }
      seleccionarMascotaEnemigo ()
-} 
+}
+
 function seleccionarMascotaEnemigo () {
  let mascotaAleatorio = aleatorio (1,3)
  let spanMascotaEnemigo = document.getElementById ('mascota-enemigo')
