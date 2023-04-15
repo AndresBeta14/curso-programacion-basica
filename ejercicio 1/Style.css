@@ -1,0 +1,26 @@
+h1{
+  color: red;  
+}
+h2{
+    color: darkgreen;
+    text-align: center;
+}
+p{
+    color: orange;
+}
+.h2diferente{
+    color: yellow;
+    text-align: right;
+}
+.pdiferente{
+    color: blue;
+}
+.fondoazul{
+    background-color: blue;
+}
+.fondorojo{
+    background-color: red;
+}
+img{
+   : center;
+}
