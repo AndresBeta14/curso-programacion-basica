@@ -75,15 +75,30 @@ function ataqueAleatorioEnemigo() {
  } else {
    ataqueEnemigo = 'PLANTA'
  }
- crearMensaje()
+ combate()
 
 }
+function combate() {
+   if (ataqueEnemigo == ataqueJugador) {
+      crearMensaje("EMPATE")
+    } else if (ataqueJugador == 'FUEGO' && ataqueEnemigo == 'PLANTA') {
+      crearMensaje("GANASTE")
+    } else if (ataqueJugador == 'AGUA' && ataqueEnemigo == 'FUEGO') {
+      crearMensaje("GANASTE")
+    } else if (ataqueJugador == 'PLANTA' && ataqueEnemigo == 'AGUA') {
+      crearMensaje("GANASTE")
+    } else {
+      crearMensaje("PERDISTE")
+      
+    }
+  
+}
 
-function crearMensaje(){
+function crearMensaje(resultado){
    let sectionMensajes = document.getElementById ('mensajes')
 
    let parrafo = document.createElement ('p')
-   parrafo.innerHTML = 'tu mascota ataco con ' + ataqueJugador + ',las mascotas del enemigo ataco con ' + ataqueEnemigo + 'Pendiente'
+   parrafo.innerHTML = 'tu mascota ataco con ' + ataqueJugador + ',las mascotas del enemigo ataco con ' + ataqueEnemigo + '- ' + resultado
 
    sectionMensajes.appendChild (parrafo)
 }
