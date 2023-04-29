@@ -1,0 +1,14 @@
+.titulo {
+     color:violet ;
+width: 360px;
+height: 60px;
+background-color: aquamarine;
+} 
+
+#seleccionar-mascota {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+            
