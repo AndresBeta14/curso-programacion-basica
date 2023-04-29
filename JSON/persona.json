@@ -1,0 +1,12 @@
+{
+   "persona1": {
+    "nombre": "Andres",
+    "edad": 16,
+    "apellido": "Betancourt"
+   },
+   "persona2": {
+    "nombre": "Ricardo",
+    "edad": 25,
+    "apellido": "Betancourt"
+   }
+}

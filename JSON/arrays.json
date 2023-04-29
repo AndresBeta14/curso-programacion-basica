@@ -1,0 +1,34 @@
+{
+    "numeros": [1,2,3,4],
+    "strings": [
+        "nombre1",
+        "nombre2"
+    ],
+    "objetos": [
+        {
+            "propiedad1": 1
+        },
+        {
+            "propiedad1": 2
+        }
+    ],
+    "mezclados": [
+        1,
+        "string",
+        {
+
+        }
+    ],
+    "personas": [
+        {
+            "nombre": "Andres",
+            "edad": 16,
+            "apellido": "Betancourt"
+        },
+        {
+            "nombre": "Ricardo",
+            "edad": 25,
+            "apellido": "Betancourt"
+        }
+    ]
+}

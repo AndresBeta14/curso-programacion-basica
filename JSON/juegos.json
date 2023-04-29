@@ -1,0 +1,31 @@
+{
+    "listaJuegos": [
+        {
+            "nombre":"Fornite",
+            "fechaLanzamiento":"2016",
+            "genero":"shooter",
+            "plataformas":[
+                "xbox",
+                "Pc",
+                "play"
+            ]
+        },
+        {
+            "nombre":"Amoungus",
+            "fechaLanzamiento":"2020",
+            "genero":"Misterio",
+            "plataformas":[
+                "Movil",
+                "Pc"
+            ]
+        },
+        {
+            "nombre":"Warzone2",
+            "fechaLanzamiento":"2023",
+            "genero":"Shooter",
+            "plataformas":[
+                "All"
+            ]
+        }
+    ]
+}
