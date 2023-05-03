@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>MOKEPON</title>
+  <title class="">MOKEPON</title>
   <Script src="./js/mokepon.js"></Script>
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -11,22 +11,25 @@
 <body>
  
   <section id="seleccionar-mascota">
-    <h1 class="titulo"> MOKEPON! 💦🔥☘️ </h1>
+    <h1 class="titulo"> MOKEPON </h1>
 
-    <h2>Elige tu mascota:</h2>
+    <h2 class="subtitulo">Elige tu mascota:</h2>
 
-    <label for="Marguas">Marguas</label>
-    <input type="radio" name="mascota" id="Marguas">
+    <div class="tarjetas">
+      <label class="targeta-de-mokepon" for="Marguas">Marguas
+       <p>Marguas</p>
+      </label>
+      <input type="radio" name="mascota" id="Marguas">
+  
+      <label class="targeta-de-mokepon" for="firezard">firezard</label>
+      <input type="radio" name="mascota" id="firezard">
+  
+      <label class="targeta-de-mokepon" for="palzard">palzard</label>
+      <input type="radio" name="mascota" id="palzard">
+  
+    </div>
 
-    <label for="firezard">firezard</label>
-    <input type="radio" name="mascota" id="firezard">
-
-    <label for="palzard">palzard</label>
-    <input type="radio" name="mascota" id="palzard">
-
-
-
-
+  
     <button id="boton-mascota">seleccionar</button>
 
   </section>

@@ -1,0 +1,18 @@
+    {
+    "ListaFruta": [ {
+    "nombre": "Manzana",
+    "Cantidad": 10
+    },
+    {
+        "nombre": "pera",
+        "Cantidad": 3 
+    },
+    {
+        "nombre": "piña",
+        "Cantidad": 6
+    
+    }
+    ]
+
+
+    }
